@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <link rel="stylesheet" href="Profile.css">
+    <link rel="stylesheet" href="Profile.js">
+
+        
+    
+    <title>Xin Chào! - Mình là Huy</title>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</head>
+<body>
+<!--Navigation-->
+    <nav>
+        <div id="TT">
+            <ul class="ct">
+                <li><a href="#">Trang Chủ</a></li>
+                <li><a href="#v2">Giới Thiệu</a></li>
+                <li><a href="#h1v3">Học Vấn</a></li>
+            </ul>
+        <div id="logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
+        </div>
+    </nav>
+<!-- vùng định dạng 1-->
+    <div id="v1">
+        
+        <div id="v11">
+            <span class=" sub mb15 mau"> Xin chào, Tôi là</span>
+            <h1 class="mb20 name-style"> Vũ Văn Huy</h1>
+            <h5> Sinh viên Trường<strong > Đại Học Nguyễn Tất Thành</strong> </h5>
+            <h5>Khoa <strong> Công Nghệ Thông Tin</strong></h5>
+            <p> Chuyên ngành Kĩ Thuật Phần Mềm</p>
+            <a class="mt40 btext bder hvbf" href="#v2"> Tìm Hiểu Thêm &#8594;</a>
+        </div>
+
+        <div class="avt"><img src="img/v152 (6).png" height="570px" width="410px"></div>
+
+        <div class="mdal"> 
+            <div class="im1"> <img src="img/v1_2.png" alt=""></div>
+            <h2 class="th1">Target</h2>
+            <p class="p1">Sắp hoàn thành năm nhất với mục tiêu ra trường đúng thời gian.</p>
+
+            <div class="im2"> <img src="img/v1_3.png" alt=""></div>
+            <h2 class="th2">Learn</h2>
+            <p class="p2">Học hỏi môn chuyên ngành và tìm tòi thêm những sở thích, môn chuyên ngành khác.</p>
+                
+            <div class="im3"> <img src="img/v1_4.png" alt=""></div>
+            <h2 class="th3">Sociable</h2>  
+            <p class="p3">Hòa đồng giao tiếp với mọi người xung quanh.</p>
+        </div>
+        
+        <div class="clearFix"></div>
+         
+    </div>
+    
+<!--vùng định dạng 2-->
+    <div id="v2">
+        <h1> Giới Thiệu</h1>
+        <!--<div class="GT"><img src="img/avt.jpg" height="700px" width="500px"></div>-->
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <!--<ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>-->
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/avt.jpg" alt=""  height="550px" width="300px">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gt1.jpg" alt="" height="550px" width="300px">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gt5.jpg" alt="" height="550px" width="300px">
+              </div>
+            </div>0
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <div id="nd" >
+            <h3> Mình Là Ai?</h3>
+            <p class="ndgt"> Xin Chào,
+                <br>
+                Mình là <strong class="huy">Huy</strong> tên đầy đủ của mình là <strong class="huy">Vũ Văn Huy</strong>. Hiện tại mình đang học tập tại trường
+                <strong class="ntt">Đại Học Nguyễn Tất Thành</strong>  chuyên ngành <strong class="ktpm"> Kĩ Thuật Phần Mềm</strong>. <br><br> Mình đã rất thích lập trình từ khi mình được tiếp xúc với máy tính và xem những người lập trình viên thể hiện kĩ năng làm mình rất ngưỡng mộ. Mình đã tìm tòi khá nhiều về lập trình như xem các cách thức tạo ra các <strong class="udpmtt">ứng dụng, phần mềm, các trang web,</strong> và có lẽ phần chính là để <strong class="hg">hack game =))</strong>. Và mình có tìm tòi lên youtube thì học sơ qua nhưng không hiểu gì hết :( và thế là mình đã quyết định chỉ chơi game thôi :v
+                <br><br>Sau đó mình vẫn quyết tâm với đam mê của mình và mình thi tốt nghiệp cấp 3, xét vào trường <strong class="ntt">Đại Học NTT</strong> học hỏi, theo đuổi đam mê của mình.
+                Bên cạnh đó mình cũng ấp ủ khá nhiều dự định, dự án của mình từ lâu cho nghành này, từ đó đem lại động lực học tập cho mình nhiều hơn. Nhằm có thể thực hiện được những dự định của bản thân đưa ra.
+                <br>Sau năm đầu tiên học ở <strong class="ntt">Nguyễn Tất Thành</strong> mình đã có những hướng đi nhất định, đưa ra mục tiêu học tập, tích lũy thêm kiến thức và kĩ năng. Sẽ cố gắng thêm nhiều trong thời gian tiếp theo .
+                <br><br>Và theo như mình tìm hiểu thì muốn làm một lập trình viên thực sự không hề dễ, từ các ngôn ngữ lập trình như: <strong class="nn">C#, C++, Java, HTML, CSS,...</strong> và còn rất nhiều ngôn ngữ lập trình khác. Không chỉ nằm ở kĩ năng và còn phải về sự ham học hỏi, tư duy của bản thân khá nhiều. Từ chuyên nghành chính đến những chuyên ngành liên quan nên học hỏi để có cho mình thêm những kinh nghiệm, kĩ năng tốt hơn. 
+                Vì vậy, với mục tiêu học tập của bản thân: Ra trường đúng thời hạn, học tập được nhiều kiến thức và kĩ năng và có thể triển khai được mọi dự án ấp ủ của bản thân.
+                <br><br> <strong> Đây là một đồ án trang wed mình làm về thiết kế giao diện profile cá nhân và cũng là dự án đầu tiên mình làm dành cho bản thân mình. Và còn rất nhiều dự án khác mình đang thực hiện rất đáng chờ trong tương lai.</strong>
+                <br> <span class="lm" >Learning motto: Connect everything that I've learned</span>
+            </p>
+        </div>
+        <div class="clearFix"></div>
+    </div>
+<!-- vùng định dạng 3-->
+    <h1 id="h1v3">Học Vấn</h1>
+    <div id="v3">
+        
+        <div id="v31">
+            <h3> Quá Trình Học Vấn</h3>
+            <p>2018 - 2021<br>Học và tốt nghiệp tại THPT Nguyễn Tất Thành</p>
+            <br>
+            <p>9 - 2021<br>Bắt đầu học tại University Nguyễn Tất Thành <br> Chuyên ngành Kĩ Thuật Phần Mềm</p>
+        </div>
+
+        <div id="v32">
+            <h3> Kinh Nghiệm</h3>
+            <p class="text"> Gồm căn bản các ngôn ngữ lập trình </p>
+            <div id="v21"> <img src="img/v2_1.png" alt=""> <img src="img/v2_2.png" alt=""></div>
+            <div id="ptt1">70% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60%</div>
+            <div id="pt1"> <img src="img/70_-removebg-preview.png" alt=""> <img src="img/60_-removebg-preview.png" alt=""></div>
+
+            <div id="v22"> <img src="img/v2_3.png" alt="" ><img src="img/v2_4.png" alt=""></div>
+            <div id="ptt2">30% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50%</div>
+            <div id="pt2"> <img src="img/30_-removebg-preview.png" alt=""> <img src="img/50_-removebg-preview.png" alt=""></div>
+        </div>
+
+        <div id="v33">
+            <h3> Tự Học Thêm</h3>
+            <p> Căn bản các Kĩ năng: Deginer,  Photography,... <br>và các Phần Mềm liên quan khác</p>
+            <div id="v256"> <img src="img/v2_5.png" alt=""><img src="img/v2_6.png" alt="" ></div>
+            <div id="v289"> <img src="img/v2_8.png" alt="" class="v2891"><img src="img/v2_9.png" alt=""></div>
+            <div id="v27"> <img src="img/v2_7.png" alt=""></div>
+        </div>
+    </div>
+
+   
+    <footer class="FT">
+        <section>
+            <div class="text-ft">
+                <span> Flow me with us on social networks:</span>
+                
+            </div>
+
+            <div class="icon-ft">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/VanHuy.1701.2603" target="_blank" class="me-4 text-reset">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/vanhuy17_01/" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.pinterest.com/huyvanvu2003/" target="_blank">
+                            <i class="fa fa-pinterest-p"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" target="_blank">
+                            <i class="fa fa-camera"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCj3Tu23kuNGVQrPqPnCG_3w" target="_blank">
+                            <i class="fa fa-youtube-play"></i>
+                        </a>
+                    </li>
+                </ul>
+        
+            </div>
+            <hr class="line-1">
+            <hr class="line-2">
+
+            <div id="ft2">
+                <div class="f1">
+                    <h3>Personal website</h3>
+                    <p class="pdt10">Đây là trang web profile do một<br>
+                        cá nhân xây dựng và phát triển.<br>
+                        Dựa trên những tài liệu sẵn có <br>
+                        Chứa đựng những thông tin <br>
+                        liên quan về người dùng cá nhân.<br>
+                        <p></p>
+                    </p>
+                </div>
+
+                <div class="f2">
+                    <h3>Develop & SP</h3>
+                     
+                    <ul>
+                        <li><a href="https://visualstudio.microsoft.com/" target="_blank">Visual Studio </a></li>
+                        <li><a href="https://vi.wikipedia.org/wiki/HTML" target="_blank">HTMML</a></li>
+                        <li><a href="https://vi.wikipedia.org/wiki/CSS" target="_blank">CSS</a></li>
+                        <li><a href="https://vi.wikipedia.org/wiki/JavaScript" target="_blank">JavaScrip</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">Bootstrap</a></li>
+                    </ul>
+                    <div class="clearFix"></div>
+                </div>
+
+                <div class="f3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#" target="_blank">Evaluate</a></li>
+                        <li><a href="#" target="_blank">Settings</a></li>
+                        <li><a href="#" target="_blank">User manual</a></li>
+                    </ul>
+                </div>
+
+                <div class="f4">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li> <a href="https://www.google.com/maps/place/Qu%E1%BA%ADn+12,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.8614818,106.6256786,13z/data=!3m1!4b1!4m5!3m4!1s0x317529d0eabab26d:0x720f8ac0f2582e45!8m2!3d10.8671531!4d106.6413322?hl=vi" target="_blank"><i class="fa fa-home me-3"></i></a>  Q12, TP.HCM</li>
+                        <li> <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><i class="fa fa-envelope"></i></a> huyvanvu2003@gmail.com</li>
+                        <li> <a href="#" target="_blank"><i class="fa fa-phone"></i></a> 0336262711</li>
+                        <li> <img src="img/QRFB.png" alt="" class="qrfb"></li>
+                    </ul>
+                </div>
+
+                <div class="copyright">
+                    <hr class="line-c">
+                    <span> &#169; 2022 Copyright: @Ned Nelly</span>
+                </div>
+
+            </div>
+
+        </section>
+    </footer>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-o-up"></i></button>
+
+</body>
+</html>
